@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "WebSearch",
+      "WebFetch(*)",
+      "Bash(export PATH=\"$PATH:/c/Users/kite_/AppData/Local/Microsoft/WinGet/Links\")",
+      "Bash(decompyle3 /c/Users/kite_/Documents/Program/OpenClaw/__pycache__/__init__.cpython-313.pyc)",
+      "Bash(uncompyle6 /c/Users/kite_/Documents/Program/OpenClaw/__pycache__/__init__.cpython-313.pyc)",
+      "Bash(npm list:*)",
+      "Bash(pip list:*)",
+      "Bash(npx --version)",
+      "Bash(npm info:*)",
+      "WebFetch(domain:developer.x.com)",
+      "WebFetch(domain:docs.x.com)",
+      "WebFetch(domain:postproxy.dev)",
+      "WebFetch(domain:github.com)",
+      "mcp__x-api__fetch_tweet",
+      "mcp__x-api__search_tweets",
+      "mcp__x-api__fetch_timeline",
+      "mcp__claude_ai_X-API__fetch_tweet",
+      "mcp__claude_ai_X-API__search_tweets",
+      "mcp__claude_ai_X-API__fetch_timeline"
+    ]
+  }
+}
