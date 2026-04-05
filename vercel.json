@@ -1,0 +1,9 @@
+{
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/connectc2x", "destination": "https://connectc2x.vercel.app/connectc2x" },
+    { "source": "/connectc2x/:path+", "destination": "https://connectc2x.vercel.app/connectc2x/:path+" },
+    { "source": "/auctionbot", "destination": "https://web-quo-lu.vercel.app/auctionbot" },
+    { "source": "/auctionbot/:path*", "destination": "https://web-quo-lu.vercel.app/auctionbot/:path*" }
+  ]
+}
